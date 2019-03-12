@@ -5,5 +5,5 @@
 # Big Four - Constructor, Copy-Constructor, Operator=, Destructor
 
 # Задачи
-1. class with Big Four
+1. Дефиниране на методи на клас извън тялото му.
 2. class Polynomial
