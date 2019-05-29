@@ -11,6 +11,10 @@ string Question::getQuestion() const {
 	return question;
 }
 
+void Question::setQuestion(string question) {
+	this->question = question;
+}
+
 Question::~Question() {
 
 }
@@ -92,6 +96,25 @@ double SingleChoiceQuestion::readAnswer(ostream & out, istream & in) const {
 		return answers[ans].points;
 	}
 	return 0;
+}
+
+void ChoicesQuestion::read(istream& in) {
+	TestParser parser(in);
+
+	setQuestion(parser.readQuestion());
+	int n = parser.readNumberOfAnswers();
+	for (int i = 0; i < n; i++) {
+		Answer answer = parser.readAnswer();
+		addAnswer(answer.text, answer.points);
+	}
+}
+
+void ShortAnswerQuestion::read(istream& in) {
+	TestParser parser(in);
+
+	setQuestion(parser.readQuestion());
+	Answer answer = parser.readAnswer();
+	setAnswer(answer.text, answer.points);
 }
 
 

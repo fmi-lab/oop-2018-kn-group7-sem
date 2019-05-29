@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+void testRun() {
 	Test mytest;
 
 	mytest.add(
@@ -52,6 +52,15 @@ int main() {
 	);
 
 	mytest.take(cout, cin);
+}
 
+int main() {
+	Test mytest;
+	mytest.loadFromFile("questions.in");
+	mytest.take(cout, cin);
 	return 0;
 }
+
+
+
+

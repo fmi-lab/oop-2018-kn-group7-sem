@@ -2,6 +2,7 @@
 #define	TEST_H_INCLUDED
 
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <vector>
 #include "questions.h"
@@ -12,6 +13,8 @@ class Test {
 public:	 
 	void add(Question* q);
 	void take(ostream & out, istream & in);
+	void loadFromFile(string filename);
+	void load(istream & in);
 	~Test();
 private:
 	vector<Question*> questions;

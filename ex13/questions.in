@@ -1,0 +1,40 @@
+single_choice
+Choose the invalid predefined macro as per ANSI C.
+4
+0 __FILE__
+0 __DATE__
+0 __TIME__
+5 __C++__
+
+multiple_choice
+What the 4 principles of OOP?
+5
+2.5 Encapsulation
+2.5 Inheritance
+2.5 Abstraction
+2.5 Polymorphism
+0 Functional programming
+
+short_answer
+How to print \n on the screen?
+5 \n
+
+single_choice
+A single line comment in C language source code can begin with _____"
+4
+0 ;
+2 //
+0 :
+0 /*
+
+multiple_choice
+How to print new line in C++
+4
+2.5 endl
+2.5 \n
+0 newline
+0 endline
+
+short_answer
+Stderr is a standard error.
+5 Yes
