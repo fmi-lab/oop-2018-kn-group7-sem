@@ -1,0 +1,7 @@
+FMI
+student;Pesho Petrov;pesho@fmi.com;123456
+student;Ivan Petrov;ivan@fmi.com;2020202
+student;Dragan Petrov;dragan@fmi.com;3030303
+teacher;Mimi Petrov;mimi@teacher.fmi.com;up,oop,sdp
+teacher;Lili Petrova Iordanova;lili@teacher.fmi.com;oop
+teacher;Pepi Petrov;pepi@teacher.fmi.com;ai
